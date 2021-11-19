@@ -20,7 +20,7 @@ limitations under the License.
 
 # incrmrmse
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Compute a moving [root mean squared error][root-mean-squared-error] (RMSE) incrementally.
 
@@ -152,9 +152,9 @@ console.log( accumulator() );
 
 ## See Also
 
--   [`@stdlib/stats/incr/mmse`][@stdlib/stats/incr/mmse]: compute a moving mean squared error (MSE) incrementally.
--   [`@stdlib/stats/incr/mrss`][@stdlib/stats/incr/mrss]: compute a moving residual sum of squares (RSS) incrementally.
--   [`@stdlib/stats/incr/rmse`][@stdlib/stats/incr/rmse]: compute the root mean squared error (RMSE) incrementally.
+-   <span class="package-name">[`@stdlib/stats/incr/mmse`][@stdlib/stats/incr/mmse]</span><span class="delimiter">: </span><span class="description">compute a moving mean squared error (MSE) incrementally.</span>
+-   <span class="package-name">[`@stdlib/stats/incr/mrss`][@stdlib/stats/incr/mrss]</span><span class="delimiter">: </span><span class="description">compute a moving residual sum of squares (RSS) incrementally.</span>
+-   <span class="package-name">[`@stdlib/stats/incr/rmse`][@stdlib/stats/incr/rmse]</span><span class="delimiter">: </span><span class="description">compute the root mean squared error (RMSE) incrementally.</span>
 
 </section>
 
@@ -205,8 +205,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/stats-incr-mrmse/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/stats-incr-mrmse?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/stats-incr-mrmse.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/stats-incr-mrmse/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
