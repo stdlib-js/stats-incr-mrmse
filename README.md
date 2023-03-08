@@ -30,10 +30,14 @@ For a window of size `W`, the [**root mean squared error**][root-mean-squared-er
 
 <!-- <equation class="equation" label="eq:root_mean_squared_error" align="center" raw="\operatorname{RMSE} = \sqrt{ \frac{1}{W} \sum_{i=0}^{W-1} (y_i - x_i)^2 }" alt="Equation for the root mean squared error."> -->
 
-<div class="equation" align="center" data-raw-text="\operatorname{RMSE} = \sqrt{ \frac{1}{W} \sum_{i=0}^{W-1} (y_i - x_i)^2 }" data-equation="eq:root_mean_squared_error">
+```math
+\operatorname{RMSE} = \sqrt{ \frac{1}{W} \sum_{i=0}^{W-1} (y_i - x_i)^2 }
+```
+
+<!-- <div class="equation" align="center" data-raw-text="\operatorname{RMSE} = \sqrt{ \frac{1}{W} \sum_{i=0}^{W-1} (y_i - x_i)^2 }" data-equation="eq:root_mean_squared_error">
     <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@6c360ad04d4b48c623a626d13723b4dc33ff0e8e/lib/node_modules/@stdlib/stats/incr/mrmse/docs/img/equation_root_mean_squared_error.svg" alt="Equation for the root mean squared error.">
     <br>
-</div>
+</div> -->
 
 <!-- </equation> -->
 
@@ -221,7 +225,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 -->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://gitter.im/stdlib-js/stdlib/
+[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
