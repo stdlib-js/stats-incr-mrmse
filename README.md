@@ -63,7 +63,7 @@ For a window of size `W`, the [**root mean squared error**][root-mean-squared-er
 ## Usage
 
 ```javascript
-import incrmrmse from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mrmse@deno/mod.js';
+import incrmrmse from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mrmse@v0.2.3-deno/mod.js';
 ```
 
 #### incrmrmse( window )
@@ -128,7 +128,7 @@ r = accumulator();
 
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import incrmrmse from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mrmse@deno/mod.js';
+import incrmrmse from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mrmse@v0.2.3-deno/mod.js';
 
 var accumulator;
 var v1;
